@@ -1,20 +1,41 @@
-# netflix-personalised-dashboard
-Netflix-Personalised-Dashboard is a data-driven project that provides insights into my personal Netflix viewing habits. Netflix is a global streaming service offering a vast collection of films, documentaries, TV shows, and original content across various genres. With millions of users worldwide, Netflix’s personalised recommendations and vast library make it an ideal source for data analysis.
+# Netflix Personalised Dashboard
 
-This project leverages my own Netflix viewing history, specifically focusing on the dates when I watched various titles, to explore patterns, trends, and behaviours. It includes analyses of content types, genres, ratings, and viewing habits, aiming to understand how I interact with the platform.
+This project provides insights into my personal Netflix viewing habits, leveraging data analysis and visualisation techniques to understand content trends, genre preferences, ratings, and more. The analysis is powered by Python and visualised in both Jupyter Notebook and Tableau.
 
-**Key Features:**
+### Table of Contents
+- [Project Overview](#project-overview)
+- [Files in This Repository](#files-in-this-repository)
+- [Interactive Dashboard](#interactive-dashboard)
+- [Setup and Usage](#setup-and-usage)
 
-**Time-based Analysis:** Visualise the types of content watched on different dates throughout the year, identifying patterns in seasonal or daily viewing habits.
+---
 
-**Genre Analysis:** Breakdown of which genres are most frequently watched, and how genre preferences shift over time.
+### Project Overview
+This analysis explores patterns in my Netflix viewing history, focusing on dates watched, content types, ratings, and genres. Key features include:
+- **Time-based Analysis**: Examines viewing trends over different dates.
+- **Genre Analysis**: Provides insights into popular genres and shifts in preferences.
+- **Ratings Analysis**: Studies the correlation between ratings and content characteristics.
+- **Content Frequency**: Tracks the number of unique shows watched each month.
+- **Genre Popularity**: Analyses shifts in genre preferences over time.
 
-**Ratings Analysis:** Examine the correlation between content ratings and genres to see if certain genres feature higher-rated content more frequently.
+### Files in This Repository
 
-**Number of Shows Watched per Month:** Track the number of unique shows watched each month to observe overall viewing activity.
+| File | Description |
+| ---- | ----------- |
+| `README.md` | This document, providing an overview of the project and files. |
+| `netflix_personalised_dashboard.ipynb` | Jupyter Notebook for analysis and visualisations, generated in Colab. Contains the full code for data cleaning, analysis, and visualisation. |
+| `netflix_time_series_data.csv` | Cleaned time-series dataset for analysis. Includes separated columns for month and year extracted from `Date Watched`. |
+| `TABLEAU_LINK.md` (To be removed) | Link to the Tableau dashboard. This will be moved to the README. |
+| `dashboard_preview.png` | Preview image of the Tableau dashboard (re-uploaded if missing). |
+| `.gitignore` | Specifies files to ignore in the repository, e.g., temporary files. |
+| `LICENSE` | License for the repository. |
 
-**Genre Popularity Over Time:** Analyse how genre preferences fluctuate across different periods, revealing long-term shifts in viewing habits.
+### Interactive Dashboard
+Explore the interactive version of this analysis on Tableau:
+[View My Tableau Dashboard](https://public.tableau.com/views/Book1c_17282086006840/NETFLIX?:language=en-GB&:publish=yes&:display_count=n&:origin=viz_share_link)
 
-The project uses Python for data manipulation and visualisation, utilising libraries like Pandas for data processing and Matplotlib/Seaborn for generating insights. Additionally, Tableau is used to create interactive dashboards, providing an intuitive way to explore the data and generate insights.
-
-This analysis is presented in Jupyter Notebooks and enhanced with Tableau dashboards, combining both technical analysis and user-friendly visual exploration.
+### Setup and Usage
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/username/netflix-personalised-dashboard.git
+   cd netflix-personalised-dashboard
