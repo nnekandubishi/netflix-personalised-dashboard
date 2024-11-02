@@ -25,7 +25,6 @@ This analysis explores patterns in my Netflix viewing history, focusing on dates
 | `README.md` | This document, providing an overview of the project and files. |
 | `netflix_personalised_dashboard.ipynb` | Jupyter Notebook for analysis and visualisations, generated in Colab. Contains the full code for data cleaning, analysis, and visualisation. |
 | `netflix_time_series_data.csv` | Cleaned time-series dataset for analysis. Includes separated columns for month and year extracted from `Date Watched`. |
-| `TABLEAU_LINK.md` (To be removed) | Link to the Tableau dashboard. This will be moved to the README. |
 | `dashboard_preview.png` | Preview image of the Tableau dashboard (re-uploaded if missing). |
 | `.gitignore` | Specifies files to ignore in the repository, e.g., temporary files. |
 | `LICENSE` | License for the repository. |
